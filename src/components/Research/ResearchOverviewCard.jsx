@@ -33,7 +33,7 @@ const ResearchOverviewCard = ({
 
       <div className="flex flex-wrap gap-4 mt-4">
         <Link
-          to={detailLink}
+          to={`${import.meta.env.BASE_URL}${detailLink}`}
           className="px-5 py-2 font-medium text-white bg-black rounded hover:bg-gray-600 transition"
         >
           Research Detail
