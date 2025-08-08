@@ -199,7 +199,7 @@ export const researchDetailItems = [
         ],
       },
     },
-    publicationLink: "",
+    publicationLink: "https://arxiv.org/abs/2507.20392",
   },
   {
     id: 3,
