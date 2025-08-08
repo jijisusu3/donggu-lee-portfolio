@@ -14,13 +14,12 @@ function App() {
     <BrowserRouter basename="/donggu-lee-portfolio">
       <div className="bg-white text-white min-h-screen font-sans">
         <Navbar />
-        <BrowserRouter basename="/donggu-lee-portfolio">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/research" element={<Research />} />
-            <Route path="/research/:id" element={<ResearchDetail />} />
-          </Routes>
-        </BrowserRouter>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/research" element={<Research />} />
+          <Route path="/research/:id" element={<ResearchDetail />} />
+        </Routes>
 
         <footer className="text-center py-6 text-sm text-gray-400 mt-90">
           Made by Jisu Kim © 2025
