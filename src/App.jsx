@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/donggu-lee-portfolio">
       <div className="bg-white text-white min-h-screen font-sans">
         <Navbar />
         <BrowserRouter basename="/donggu-lee-portfolio">
@@ -26,7 +26,7 @@ function App() {
           Made by Jisu Kim © 2025
         </footer>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
