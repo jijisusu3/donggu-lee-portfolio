@@ -65,7 +65,7 @@ export const internationalJournal = [
     title:
       "Analysis and prediction of coverage and channel rank for UAV networks in rural scenarios with foliage,",
     journal: <i>IEEE Open Journal of Vehicular Technology</i>,
-    info: "(Early Access) 2025.",
+    info: "vol. 6, pp. 1943-1962, July 2025.",
     url: "https://ieeexplore.ieee.org/abstract/document/11066253/authors#authors",
   },
 ];
