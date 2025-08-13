@@ -6,7 +6,7 @@ export const contactItems = [
     link: "https://www.linkedin.com/in/donggu-lee-DL",
   },
   {
-    icon: "/contact/google_scholar.svg",
+    icon: "https://jijisusu3.github.io/donggu-lee-portfolio/contact/google_scholar.svg",
     label: "Google Scholar",
     value: "Donggu Lee",
     link: "https://scholar.google.com/citations?user=nBGrpW8AAAAJ&hl=en",

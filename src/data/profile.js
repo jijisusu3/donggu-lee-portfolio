@@ -24,19 +24,19 @@ export const contacts = [
     label: "LinkedIn",
     value: "@donggu-lee-DL",
     url: "https://linkedin.com/in/donggu-lee-DL",
-    img: "/contact/linkedin.svg",
+    img: "https://jijisusu3.github.io/donggu-lee-portfolio/contact/linkedin.svg",
   },
   {
     label: "Google Scholar",
     value: "Donggu Lee",
     url: "https://scholar.google.com/citations?user=nBGrpW8AAAAJ&hl=en",
-    img: "/contact/google_scholar.svg",
+    img: "https://jijisusu3.github.io/donggu-lee-portfolio/contact/google_scholar.svg",
   },
   {
     label: "Email",
     value: "dlee42@ncsu.edu",
     url: "mailto:dlee42@ncsu.edu",
-    img: "/contact/email.svg",
+    img: "https://jijisusu3.github.io/donggu-lee-portfolio/contact/email.svg",
   },
 ];
 

@@ -11,7 +11,7 @@ function CvViewer() {
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
         <div className="h-[750px] w-full border border-gray-300">
           <Viewer
-            fileUrl="/CV_Donggu_Lee.pdf"
+            fileUrl="https://jijisusu3.github.io/donggu-lee-portfolio/CV_Donggu_Lee.pdf"
             plugins={[defaultLayoutPluginInstance]}
           />
         </div>

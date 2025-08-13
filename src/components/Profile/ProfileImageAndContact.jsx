@@ -3,7 +3,7 @@ function ProfileImageAndContact() {
   return (
     <div className="w-full flex flex-col items-center px-4 pb-6 space-y-8">
       <img
-        src="/profile_image.jpg"
+        src="https://jijisusu3.github.io/donggu-lee-portfolio/profile_image.jpg"
         alt="Donggu Lee"
         className="rounded-full w-80 md:w-60 object-cover shadow-md"
       />

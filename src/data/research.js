@@ -4,8 +4,10 @@ export const researchOverviewItems = [
     title: "Ray Tracing Analysis for UAV Networks",
     description:
       "We investigate the RF coverage and MIMO channel rank of UAV networks in dense-foliage rural environments using Sionna-based ray tracing simulations. By integrating realistic tree models in Blender and environmental data from OpenStreetMap, we analyze how foliage and terrain affect connectivity in terms of received signal strength and channel rank. The results are validated against real-world AERPAW measurements.",
-    image1: "/research/research1_1.png",
-    image2: "/research/research1_2.png",
+    image1:
+      "https://jijisusu3.github.io/donggu-lee-portfolio/research/research1_1.png",
+    image2:
+      "https://jijisusu3.github.io/donggu-lee-portfolio/research/research1_2.png",
     tags: ["MATLAB", "Sionna (NVIDIA)", "Python", "Blender"],
     detailLink: "/research/1",
     publicationLink: "https://ieeexplore.ieee.org/abstract/document/11066253",
@@ -15,8 +17,10 @@ export const researchOverviewItems = [
     title: "Link Performance Evaluation for Asymmetric UAV-RC Links",
     description:
       "This study investigates uplink (UL) and downlink (DL) asymmetry, primarily caused by LoS ISM-band interference, which impacts UAV link reliability. We use MATLAB LTE, 5G, and WLAN Toolboxes to simulate the effect of UL SINR asymmetry on HARQ feedback and throughput. To find physical evidence, a measurement campaign was conducted using a Helikite. The results show that UL asymmetry significantly reduce throughput, emphasizing the need for UL robustness.",
-    image1: "/research/research2_1.png",
-    image2: "/research/research2_2.png",
+    image1:
+      "https://jijisusu3.github.io/donggu-lee-portfolio/research/research2_1.png",
+    image2:
+      "https://jijisusu3.github.io/donggu-lee-portfolio/research/research2_2.png",
     tags: ["MATLAB (LTE, 5G, and WLAN Toolboxes)"],
     detailLink: "/research/2",
     publicationLink: "https://arxiv.org/abs/2507.20392",
@@ -27,8 +31,10 @@ export const researchOverviewItems = [
       "Deep Reinforcement Learning (DRL)-based Adaptive Modulation and Coding (AMC) Scheme",
     description:
       "This research explores RL to improve wireless communication systems. Starting with a DQN-based adaptive modulation scheme, we improved spectral efficiency. We then adopted a neural episodic control (NEC) algorithm into AMC schemes, achieving faster learning. Finally, we introduced a multi-agent NEC framework for UAV-assisted IoRT networks, where network elements cooperatively learn and optimize resources over a shared goal of maximizing energy efficiency.",
-    image1: "/research/research3_1.png",
-    image2: "/research/research3_2.png",
+    image1:
+      "https://jijisusu3.github.io/donggu-lee-portfolio/research/research3_1.png",
+    image2:
+      "https://jijisusu3.github.io/donggu-lee-portfolio/research/research3_2.png",
     tags: ["Python", "TensorFlow"],
     detailLink: "/research/3",
     publicationLink: "https://ieeexplore.ieee.org/abstract/document/9025237",
@@ -43,7 +49,10 @@ export const researchDetailItems = [
       overview: {
         description:
           "We investigate the RF coverage and MIMO channel rank of UAV networks in dense-foliage rural environments using Sionna-based ray tracing simulations. By integrating realistic tree models in Blender and environmental data from OpenStreetMap, we analyze how foliage and terrain affect connectivity in terms of received signal strength and channel rank. The results are validated against real-world AERPAW measurements.",
-        images: ["/research/research1_1.png", "/research/research1_2.png"],
+        images: [
+          "https://jijisusu3.github.io/donggu-lee-portfolio/research/research1_1.png",
+          "https://jijisusu3.github.io/donggu-lee-portfolio/research/research1_2.png",
+        ],
       },
       motivation: {
         bullets: [
@@ -75,8 +84,8 @@ export const researchDetailItems = [
             "Figures on the right show the RF coverage simulation results using Sionna. The resolution of the heatmap is 30 m x 30 m. The first result is based on 30 m altitude of UAV (receiver) with LW1 tower (transmitter), while the next one is based on 110 m altitude of UAV. Polygons indicate building and forest area. The results clearly show the blockage effect with the lower altitude, e.g., north side of the target environments. However, it is significantly mitigated as the altitude of UAV increased by 110 m.",
           ],
           images: [
-            "/research/research_detail1_1.png",
-            "/research/research_detail1_2.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail1_1.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail1_2.png",
           ],
         },
         {
@@ -84,7 +93,9 @@ export const researchDetailItems = [
           description: [
             "Figures show the simulation results of the channel rank distribution with 30 m altitude of UAV and 10 dB (left) and 20 dB (right) range of singular value from the strongest singular value for rank calculation, respectively. Cyan dashed lines indicate the boundary of coverage. The ratio of channel rank of 2 is increased nearby the tower as the range increases, implying two major spatial stream of LoS and ground reflective path.",
           ],
-          images: ["/research/research_detail1_3.png"],
+          images: [
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail1_3.png",
+          ],
         },
         {
           title: "Ray Tracing vs. Real-World Measurement: RSS",
@@ -93,9 +104,9 @@ export const researchDetailItems = [
             "Figure on the right show the results of ray tracing and dual channel USRP at the LW1 tower. Ray tracing shows the reasonable match to the measurement, measurement show RSS variation at each waypoint due to changing direction of UAV.",
           ],
           images: [
-            "/research/research_detail1_4.png",
-            "/research/research_detail1_5.png",
-            "/research/research_detail1_6.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail1_4.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail1_5.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail1_6.png",
           ],
         },
       ],
@@ -128,7 +139,10 @@ export const researchDetailItems = [
       overview: {
         description:
           "This study investigates uplink (UL) and downlink (DL) asymmetry, primarily caused by LoS ISM-band interference, which impacts UAV link reliability. We use MATLAB LTE, 5G, and WLAN Toolboxes to simulate the effect of UL SINR asymmetry on HARQ feedback and throughput. To find physical evidence, a measurement campaign was conducted using a Helikite. The results show that UL asymmetry significantly reduce throughput, emphasizing the need for UL robustness.",
-        images: ["/research/research2_1.png", "/research/research2_2.png"],
+        images: [
+          "https://jijisusu3.github.io/donggu-lee-portfolio/research/research2_1.png",
+          "https://jijisusu3.github.io/donggu-lee-portfolio/research/research2_2.png",
+        ],
       },
       motivation: {
         bullets: [
@@ -157,9 +171,9 @@ export const researchDetailItems = [
             "Figure on the middle show the received signal power over altitudes, while figure on the right side show the same results over the time duration along with the altitude information. It is clearly seen that the received signal power at a higher altitude tends to be higher than at a lower altitude. The gap between maximum and minimum received signal power yields 16.66 dB, which implies significant gap between UL and DL in SINR.",
           ],
           images: [
-            "/research/research_detail2_1.png",
-            "/research/research_detail2_2.png",
-            "/research/research_detail2_3.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_1.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_2.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_3.png",
           ],
         },
         {
@@ -171,9 +185,9 @@ export const researchDetailItems = [
             "Gap (3): Throughput improvement from 4 times of transmission",
           ],
           images: [
-            "/research/research_detail2_4.png",
-            "/research/research_detail2_5.png",
-            "/research/research_detail2_6.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_4.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_5.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_6.png",
           ],
         },
         {
@@ -183,9 +197,9 @@ export const researchDetailItems = [
             "Figures on the middle and right show the throughput evaluation results of LTE and 5G over AWGN with various UL asymmetric scenarios. Performance degradation due to ACK/NACK loss from SINR asymmetry in UL is shown.",
           ],
           images: [
-            "/research/research_detail2_7.png",
-            "/research/research_detail2_8.png",
-            "/research/research_detail2_9.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_7.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_8.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail2_9.png",
           ],
         },
       ],
@@ -209,7 +223,10 @@ export const researchDetailItems = [
       overview: {
         description:
           "This research explores RL to improve wireless communication systems. Starting with a DQN-based adaptive modulation scheme, we improved spectral efficiency. We then adopted a neural episodic control (NEC) algorithm into AMC schemes, achieving faster learning. Finally, we introduced a multi-agent NEC framework for UAV-assisted IoRT networks, where network elements cooperatively learn and optimize resources over a shared goal of maximizing energy efficiency.",
-        images: ["/research/research3_1.png", "/research/research3_2.png"],
+        images: [
+          "https://jijisusu3.github.io/donggu-lee-portfolio/research/research3_1.png",
+          "https://jijisusu3.github.io/donggu-lee-portfolio/research/research3_2.png",
+        ],
       },
       motivation: {
         bullets: [
@@ -237,8 +254,8 @@ export const researchDetailItems = [
             "Figure on the right shows the simulation results of the proposed DQN-based adaptive modulation scheme. The proposed scheme yields average of 0.5395 bps/Hz compared to the conventional adaptive modulation scheme.",
           ],
           images: [
-            "/research/research_detail3_1.png",
-            "/research/research_detail3_2.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail3_1.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail3_2.png",
           ],
         },
         {
@@ -248,8 +265,8 @@ export const researchDetailItems = [
             "Figure on the right show the simulation results of comparison over DQN family algorithms and NEC. The NEC shows the fastest training process among other algorithms",
           ],
           images: [
-            "/research/research_detail3_3.png",
-            "/research/research_detail3_4.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail3_3.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail3_4.png",
           ],
         },
         {
@@ -259,8 +276,8 @@ export const researchDetailItems = [
             "Figure on the right show the simulation results of cumulative energy consumption between single agent RL and multi-agent RL framework. In both UAV and sensor cases, the cooperative multi-agent RL yields better performance than a case that a single RL agent controls everything.",
           ],
           images: [
-            "/research/research_detail3_5.png",
-            "/research/research_detail3_6.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail3_5.png",
+            "https://jijisusu3.github.io/donggu-lee-portfolio/research/research_detail3_6.png",
           ],
         },
       ],
