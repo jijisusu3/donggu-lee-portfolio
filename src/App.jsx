@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  BrowserRouter,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Research from "./pages/Research";
 import ResearchDetail from "./pages/ResearchDetail";
@@ -14,7 +9,6 @@ function App() {
     <BrowserRouter basename="/donggu-lee-portfolio">
       <div className="bg-white text-white min-h-screen font-sans">
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/research" element={<Research />} />
@@ -28,5 +22,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
