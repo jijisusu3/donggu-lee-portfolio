@@ -5,17 +5,6 @@
     <link rel="icon" type="image/svg+xml" href="/dlee.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donggu.Portfolio</title>
-    <script>
-      (function () {
-        var base = "/donggu-lee-portfolio/";
-        var l = window.location;
-        var path = l.pathname.startsWith(base)
-          ? l.pathname.slice(base.length)
-          : "";
-        var newUrl = base + "#" + path + l.search + l.hash;
-        l.replace(newUrl);
-      })();
-    </script>
   </head>
   <body>
     <div id="root"></div>
