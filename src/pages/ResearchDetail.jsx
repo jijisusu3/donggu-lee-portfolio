@@ -3,6 +3,9 @@ import { researchDetailItems } from "../data/research";
 
 function ResearchDetail() {
   const { id } = useParams();
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" }); // or "smooth"
+  }, []);
   const data = researchDetailItems.find((item) => item.id === Number(id));
 
   return (
