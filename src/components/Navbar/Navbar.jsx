@@ -107,7 +107,11 @@ function Navbar() {
         >
           <img
             className="w-6 h-6"
-            src={isMobileMenuOpen ? "/nav_x.svg" : "/nav_hamburger.svg"}
+            src={
+              isMobileMenuOpen
+                ? "https://jijisusu3.github.io/donggu-lee-portfolio/nav_x.svg"
+                : "https://jijisusu3.github.io/donggu-lee-portfolio/nav_hamburger.svg"
+            }
             alt="menu"
           />
         </button>
