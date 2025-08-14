@@ -1,4 +1,6 @@
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
+
 import { researchDetailItems } from "../data/research";
 
 function ResearchDetail() {
