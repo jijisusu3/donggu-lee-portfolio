@@ -210,6 +210,11 @@ export const researchDetailItems = [
               'Donggu Lee et al., "Reliability of Wi-Fi, LTE, and 5G-based UAV RC links in ISM bands: Uplink interference asymmetry analysis and HARQ design," July 2025, arXiv:2507.20392 ',
             page: "https://arxiv.org/abs/2507.20392",
           },
+          {
+            title:
+              "Donggu Lee et al., 'Interference-Asymmetric UAV remote control links: Measurements and performance evaluation,' Aug. 2025, arXiv:2508.12941.",
+            page: "https://arxiv.org/abs/2508.12941",
+          },
         ],
       },
     },
